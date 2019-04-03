@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.MainContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    height: 10%;
+    padding: 8px;
+    margin-left: 5%;
+
+}
+
+.paw{
+    width:70px;
+}
+
+.side_item{
+    float: left;
+}
+
+.nav_text{
+    font-size: 50px;
+    color: brown;
+}
+
+.Content{
+    display: flex;
+    margin: 0;
+    text-align: center;
+    height: 90%;
+}
+
+.Left{
+    display: flex;
+    flex-grow: 1;
+    width: 15%;
+    background-color: #DEFCFC;
+}
+
+.Center{
+    display: flex;  
+    flex-grow: 5;
+    flex-direction: column;
+    width: 70%;
+    background-color: #DEFCFC;
+}
+
+.Right{
+    display: flex;    
+    flex-grow: 1;
+    width:15%;
+    background-color: #DEFCFC;
+}
+
+.bear_content{
+    display: flex;
+    margin: 0;
+    height: 33.33%;
+    text-align: left;
+    background-color: #cbf1f5;
+    margin: 10px;
+}
+
+.bear{
+    float:left;
+    width: 270px;
+}
+
+.bear1{
+    float:right;
+    width: 270px;
+}
+.bear2{
+    float:left;
+    width: 270px;
+}
+
+.bear_text{
+    align-content: left;
+    overflow-wrap: normal;
+}
